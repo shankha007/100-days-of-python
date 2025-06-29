@@ -1,0 +1,5 @@
+Amazon | john@gmail.com | AmazonPass
+Facebook | john@gmail.com | FacebookPassword
+Twitter | john@gmail.com | TwitterPassword
+Reddit | john@gmail.com | RedditPassword
+Instagram | john@gmail.com | InstagramPassword
