@@ -8,7 +8,7 @@ MY_LAT = 18.520430
 MY_LONG = 73.856743
 
 EMAIL = "shankhasmtp@gmail.com"
-PASSWORD = "kbegzrtbgbekmskf"
+PASSWORD = "abcd()"
 
 #Your position is within +5 or -5 degrees of the ISS position.
 def is_iss_overhead():
