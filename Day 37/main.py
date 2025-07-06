@@ -69,5 +69,5 @@ updated_params = {
 
 pixel_delete_endpoint = f"{cycling_graph_endpoint}/20250705"
 
-response = requests.delete(url=pixel_delete_endpoint, headers=graph_headers)
-print(response.text)
+# response = requests.delete(url=pixel_delete_endpoint, headers=graph_headers)
+# print(response.text)
