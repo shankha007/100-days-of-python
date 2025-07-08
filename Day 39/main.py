@@ -20,7 +20,6 @@ ORIGIN_CITY_IATA = "LON"
 for row in sheet_data:
     if row["iataCode"] == "":
         row["iataCode"] = flight_search.get_destination_code(row["city"])
-        # slowing down requests to avoid rate limit
         time.sleep(2)
 print(f"sheet_data:\n {sheet_data}")
 

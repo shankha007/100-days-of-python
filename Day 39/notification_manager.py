@@ -10,8 +10,8 @@ class NotificationManager:
 
     def send_whatsapp(self, message_body):
         message = self.client.messages.create(
-            from_=f'whatsapp:{os.environ["TWILIO_WHATSAPP_NUMBER"]}',
+            from_=f'whatsapp:{env.TWILIO_FROM_NUMBER}',
             body=message_body,
-            to=f'whatsapp:{os.environ["TWILIO_VERIFIED_NUMBER"]}'
+            to=f'whatsapp:{env.TWILIO_TO_NUMBER}'
         )
         print(message.sid)
